@@ -1,0 +1,4 @@
+*.txt
+doc/
+images/*
+layout/.svn/*
