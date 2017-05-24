@@ -1,0 +1,165 @@
+/* New stuff */
+header img {
+    margin-right: -5px;
+}
+
+nav {
+    background-color: #666666;
+    color: #FFFFFF;
+}
+
+nav ul {
+    list-style: none;
+    /*padding-left: 1.5em;*/
+    margin-top: 0.25em;
+    margin-left: 0;
+    padding-left: 0.5em;
+    text-indent: -1em;
+}
+
+nav ul li {
+    margin-left: 0;
+    padding-left: 1em;
+    text-indent: -1em;
+}
+
+nav ul li:before {
+    color: #f3c665;
+    content: "\0BB \020";
+}
+
+nav section {
+    display: inline-table;
+    min-height: 75px;
+    padding: 0.25em;
+}
+
+nav section .flex {
+    font-weight: bold;
+}
+
+nav section header {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav section a {
+    /*display: block;*/
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+nav section a:hover {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+aside {
+    width: 30%;
+    float: left;
+    color: #FFFFFF;
+}
+
+aside section {
+    border: 5px solid #CDCDCD;
+    margin-bottom: -5px;
+    
+}
+
+aside a {
+    color: #FFFFFF;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+aside p {
+    padding-left: 1em;
+}
+
+aside section header {
+    font-weight: bold;
+    padding: 0.5em;
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+aside ul {
+    padding: 0 1em 0 1.5em;
+}
+
+aside li {
+    padding: 0.25em;
+}
+
+.main article {
+    margin-left: 2.5%;
+}
+
+.red {
+    background-color: #f36565;
+}
+
+.yellow {
+    background-color: #f3c665;
+}
+.blue {
+    background-color: #77a5cf;
+}
+.black {
+    color: #000;
+}
+
+.inline {
+    display: inline;
+}
+
+.topnav a {
+    color: #a30001;
+}
+
+article {
+    width: 67.5%;
+    float: right;
+}
+
+footer {
+    display: inline-block;
+    width: 100%;
+}
+
+hr {
+    border-radius: 0;
+}
+
+/* Old stuff */
+a, a:list, a:visited, a:active	{
+    color: #a30001;
+	  text-decoration: underline;
+}
+a:hover {
+    color: #df5348;
+    text-decoration: underline;
+}
+
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	  font-size: 8pt;
+}
+
+#center {
+    max-width: 800px;
+    margin: 0 auto 0 auto;
+}
+
+.right {
+    float: right;
+}
+
+.cell {
+    margin: 0;
+}
+
+.logo {
+    max-width: 50%;
+    margin: 0 auto;
+    display: block;
+}
